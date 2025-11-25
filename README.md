@@ -1,24 +1,86 @@
-# TaskMaster - Task Management Application
+<div align="center">
 
-A modern, full-stack task management system with authentication, CRUD operations, and advanced filtering capabilities.
+# 🎯 TaskMaster
 
-## Tech Stack
+### Modern Task Management Application
 
-**Frontend:** React 18, Tailwind CSS, Vite  
-**Backend:** Node.js, Express.js, MongoDB  
-**Authentication:** JWT
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-16+-339933?logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-5.0-47A248?logo=mongodb&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4?logo=tailwindcss&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## Features
+**A beautiful, full-stack task management system with secure authentication, real-time updates, and advanced filtering capabilities.**
 
-- 🔐 User authentication (Register/Login with JWT)
-- ✅ Complete CRUD operations for tasks
-- 🎯 Priority levels (Low, Medium, High)
-- 🔍 Search and filter by status/priority
-- 👤 User profile management
-- 📊 Task statistics dashboard
-- 🎨 Modern, responsive UI with animations
+[Features](#-features) • [Quick Start](#-quick-start) • [API Docs](#-api-endpoints) • [Screenshots](#-screenshots)
 
-## Quick Start
+</div>
+
+---
+
+## 🚀 Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React 18, Tailwind CSS, Vite, Axios |
+| **Backend** | Node.js, Express.js, RESTful API |
+| **Database** | MongoDB, Mongoose ODM |
+| **Authentication** | JWT (JSON Web Tokens) |
+| **Security** | Bcrypt password hashing, Protected routes |
+
+## ✨ Features
+
+### 🔐 Authentication & Security
+- Secure user registration and login with JWT
+- Password hashing with bcrypt
+- Protected API routes
+- Auto logout on token expiration
+
+### ✅ Task Management
+- **Create** tasks with title, description, and priority
+- **Edit** existing tasks on the fly
+- **Delete** tasks with confirmation modal
+- **Toggle** completion status instantly
+- Priority levels: 🟢 Low, 🟡 Medium, 🔴 High
+
+### 🔍 Advanced Filtering
+- Real-time search by task title
+- Filter by status (Todo/Completed)
+- Filter by priority level
+- Combined filters for precise results
+
+### 📊 Dashboard & Analytics
+- Task statistics cards with visual indicators
+- Completion rate tracking with progress bars
+- High-priority task alerts
+- Responsive grid layout
+
+### 👤 User Profile
+- View and edit profile information
+- Change password securely
+- Track total and completed tasks
+- Account statistics
+
+### 🎨 Modern UI/UX
+- Gradient color schemes
+- Smooth animations and transitions
+- Glass-morphism effects
+- Fully responsive design
+- Dark mode ready
+
+## 🌟 Highlights
+
+```
+✓ Built with modern React 18 and Vite
+✓ RESTful API architecture
+✓ JWT-based authentication
+✓ MongoDB for scalable data storage
+✓ Tailwind CSS for rapid styling
+✓ Fully responsive across all devices
+✓ Production-ready codebase
+```
+
+## 🚀 Quick Start
 
 ### Prerequisites
 
@@ -27,23 +89,28 @@ A modern, full-stack task management system with authentication, CRUD operations
 
 ### Installation
 
-1. **Clone the repository**
+#### 1️⃣ Clone the Repository
 ```bash
-git clone <repository-url>
-cd TASK
+git clone https://github.com/pushkargupta75/Task_primetrade.ai.git
+cd Task_primetrade.ai
 ```
 
-2. **Setup Backend**
+#### 2️⃣ Setup Backendnd
 ```bash
 cd taskmaster-backend
 npm install
+
+# Copy environment file
 cp .env.example .env
+# Edit .env with your MongoDB URI and JWT secret
+
+# Start backend server
 npm run dev
 ```
 
-Backend runs on `http://localhost:5000`
+✅ Backend runs on `http://localhost:5000`
 
-3. **Setup Frontend** (in new terminal)
+#### 3️⃣ Setup Frontend (in new terminal)
 ```bash
 cd taskmaster-frontend
 npm install
@@ -157,12 +224,50 @@ cd taskmaster-frontend
 npm run build
 ```
 
-## Screenshots
+## 📸 Screenshots
 
-- **Dashboard:** Task list with statistics cards and filters
-- **Task Management:** Create, edit, delete tasks with priority indicators
-- **Profile:** User statistics and account settings
-- **Authentication:** Modern login/register pages with validation
+<table>
+<tr>
+<td width="50%">
+
+### 🏠 Dashboard
+- Statistics cards (Total, Completed, Pending, High Priority)
+- Task grid with priority badges
+- Search and filter bar
+- Create task button
+
+</td>
+<td width="50%">
+
+### ✏️ Task Management
+- Create/Edit modal with rich form
+- Priority selection dropdown
+- Delete confirmation dialog
+- Status toggle checkboxes
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 👤 User Profile
+- Profile information display
+- Edit name functionality
+- Change password form
+- Task completion statistics
+
+</td>
+<td width="50%">
+
+### 🔐 Authentication
+- Modern gradient backgrounds
+- Floating blob animations
+- Form validation
+- Error handling
+
+</td>
+</tr>
+</table>
 
 ## Security
 
@@ -172,11 +277,48 @@ npm run build
 - CORS enabled
 - Input validation
 
-## Dependencies
+## 📦 Dependencies
 
-**Backend:** express, mongoose, bcryptjs, jsonwebtoken, cors, dotenv  
-**Frontend:** react, react-router-dom, axios, tailwindcss
+### Backend
+- `express` - Fast, unopinionated web framework
+- `mongoose` - MongoDB object modeling
+- `bcryptjs` - Password hashing
+- `jsonwebtoken` - JWT implementation
+- `cors` - Cross-origin resource sharing
+- `dotenv` - Environment variable management
+
+### Frontend
+- `react` - UI library
+- `react-router-dom` - Client-side routing
+- `axios` - HTTP client
+- `tailwindcss` - Utility-first CSS framework
+- `vite` - Next-generation build tool
+
+## 🎯 Why TaskMaster?
+
+- **🚀 Fast & Efficient** - Built with Vite for lightning-fast development
+- **🎨 Beautiful UI** - Modern design with Tailwind CSS and custom animations
+- **🔒 Secure** - Industry-standard JWT authentication and password hashing
+- **📱 Responsive** - Works seamlessly on desktop, tablet, and mobile
+- **🛠️ Developer Friendly** - Clean code structure and comprehensive documentation
+- **🔧 Customizable** - Easy to extend and modify for your needs
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/pushkargupta75/Task_primetrade.ai/issues).
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
 
 ---
 
-Built with ❤️ using modern web technologies
+<div align="center">
+
+### Built with ❤️ by [Pushkar Gupta](https://github.com/pushkargupta75)
+
+**Made with React, Node.js, and lots of coffee ☕**
+
+⭐ Star this repo if you found it helpful!
+
+</div>
