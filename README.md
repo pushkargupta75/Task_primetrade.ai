@@ -10,7 +10,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-3.x-06B6D4?logo=tailwindcss&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-**A beautiful, full-stack task management system with secure authentication, real-time updates, and advanced filtering capabilities.**
+**A full-stack task management system with secure authentication, real-time updates, and advanced filtering capabilities.**
 
 [Features](#-features) • [Quick Start](#-quick-start) • [API Docs](#-api-endpoints) • [Screenshots](#-screenshots)
 
@@ -43,12 +43,6 @@
 - **Toggle** completion status instantly
 - Priority levels: 🟢 Low, 🟡 Medium, 🔴 High
 
-### 🔍 Advanced Filtering
-- Real-time search by task title
-- Filter by status (Todo/Completed)
-- Filter by priority level
-- Combined filters for precise results
-
 ### 📊 Dashboard & Analytics
 - Task statistics cards with visual indicators
 - Completion rate tracking with progress bars
@@ -61,24 +55,6 @@
 - Track total and completed tasks
 - Account statistics
 
-### 🎨 Modern UI/UX
-- Gradient color schemes
-- Smooth animations and transitions
-- Glass-morphism effects
-- Fully responsive design
-- Dark mode ready
-
-## 🌟 Highlights
-
-```
-✓ Built with modern React 18 and Vite
-✓ RESTful API architecture
-✓ JWT-based authentication
-✓ MongoDB for scalable data storage
-✓ Tailwind CSS for rapid styling
-✓ Fully responsive across all devices
-✓ Production-ready codebase
-```
 
 ## 🚀 Quick Start
 
@@ -196,33 +172,6 @@ TASK/
 4. Use search and filters to organize tasks
 5. View statistics and manage profile
 
-## Development
-
-**Backend:**
-```bash
-cd taskmaster-backend
-npm run dev  # Runs with nodemon
-```
-
-**Frontend:**
-```bash
-cd taskmaster-frontend
-npm run dev  # Runs with Vite HMR
-```
-
-## Production Build
-
-**Backend:**
-```bash
-cd taskmaster-backend
-npm start
-```
-
-**Frontend:**
-```bash
-cd taskmaster-frontend
-npm run build
-```
 
 ## 📸 Screenshots
 
@@ -307,18 +256,3 @@ npm run build
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/pushkargupta75/Task_primetrade.ai/issues).
 
-## 📝 License
-
-This project is [MIT](LICENSE) licensed.
-
----
-
-<div align="center">
-
-### Built with ❤️ by [Pushkar Gupta](https://github.com/pushkargupta75)
-
-**Made with React, Node.js, and lots of coffee ☕**
-
-⭐ Star this repo if you found it helpful!
-
-</div>

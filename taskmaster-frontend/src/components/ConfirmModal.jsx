@@ -27,7 +27,7 @@ export default function ConfirmModal({ isOpen, onConfirm, onCancel, message }) {
           </button>
           <button
             onClick={onCancel}
-            className="flex-1 bg-gray-200 text-gray-700 py-3 px-6 rounded-xl hover:bg-gray-300 transition-all transform hover:scale-105 font-semibold flex items-center justify-center gap-2"
+            className="flex-1 bg-gray-200 text-gray-700 py-3 px-6 rounded-xl hover:bg-gray-300 transition-all transform hover:scale-105 font-semibold flex items-center justify-center gap-2">
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

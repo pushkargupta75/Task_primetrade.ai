@@ -11,7 +11,7 @@ export default function FilterBar({ filters, setFilters }) {
           <input
             type="text"
             placeholder="Search tasks..."
-            className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+            className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white"
             value={filters.search}
             onChange={(e) => setFilters({ ...filters, search: e.target.value })}
           />

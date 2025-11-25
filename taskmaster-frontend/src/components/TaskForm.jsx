@@ -48,7 +48,7 @@ export default function TaskForm({ task, onSave, onCancel }) {
         </label>
         <input
           type="text"
-          className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+          className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all bg-white"
           placeholder="Enter task title..."
           value={formData.title}
           onChange={(e) => setFormData({ ...formData, title: e.target.value })}
@@ -64,7 +64,7 @@ export default function TaskForm({ task, onSave, onCancel }) {
           Description
         </label>
         <textarea
-          className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none"
+          className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none bg-white"
           rows="4"
           placeholder="Add task details..."
           value={formData.description}
